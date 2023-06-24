@@ -2,7 +2,7 @@ public class Robogo extends Jarmu implements KisGepjarmu {
 
     private int maxSebesseg;
 
-    public Robogo(String rendszam, int aktualisSebesse, int maxSebesseg) {
+    public Robogo(int aktualisSebesse, String rendszam, int maxSebesseg) {
         super(aktualisSebesse, rendszam);
         this.maxSebesseg = maxSebesseg;
     }

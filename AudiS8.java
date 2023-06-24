@@ -3,9 +3,9 @@ public class AudiS8 extends Jarmu {
     private boolean lezerblokkolo;
 
 
-    public AudiS8(int aktualisSebesse, String rendszam) {
+    public AudiS8(int aktualisSebesse, String rendszam, boolean lezerblokkolo) {
         super(aktualisSebesse, rendszam);
-        this.lezerblokkolo = true;
+        this.lezerblokkolo = lezerblokkolo;
     }
 
     @Override

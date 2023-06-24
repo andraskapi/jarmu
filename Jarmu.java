@@ -12,6 +12,6 @@ public abstract class Jarmu {
 
     @Override
     public String toString() {
-        return  rendszam + aktualisSebesse + " km/h" ;
+        return  this.rendszam + " - " + this.aktualisSebesse + " km/h" ;
     }
 }
