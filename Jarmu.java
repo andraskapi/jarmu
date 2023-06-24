@@ -6,9 +6,7 @@ public abstract class Jarmu {
         this.aktualisSebesse = aktualisSebesse;
         this.rendszam = rendszam;
     }
-    public boolean gyorshajtottE(int sebessegKorlat){
-        return aktualisSebesse > sebessegKorlat;
-    }
+    abstract boolean gyorshajtottE(int sebessegKorlat);
 
     @Override
     public String toString() {

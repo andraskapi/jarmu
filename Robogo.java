@@ -13,6 +13,7 @@ public class Robogo extends Jarmu implements KisGepjarmu {
         return maxSebesseg < sebesseg;
 
     }
+    @Override
     public boolean gyorshajtottE(int sebessegKorlat){
         return aktualisSebesse > sebessegKorlat;
     }
